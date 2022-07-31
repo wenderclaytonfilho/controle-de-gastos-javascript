@@ -26,7 +26,6 @@ const addTransactionIntoDOM = ({amount,name,id}) =>{
 	x
 	</button>
 `
-//append inserts the li content, not as an object -> it appends as it last child; 
 	transactionsUl.append(li);
 }
 
